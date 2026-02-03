@@ -5,7 +5,7 @@ Hello Konstantinos and Shadow, welcome to my "solution-story" for my Cave Of Tri
 When I first read the assignment I was impressed with the work amount
 of the task, as I have one day per week, so in total two days 
 for completing the assignment. I understood that this is also a part of the test, 
-on how I am going to deal with this and descide on what I actually will work on. 
+on how I am going to deal with this and decide on what I actually will work on. 
 So let's dive in on my though and solution process. 
 
 First I was looking up on the different abilities that the custom component 
@@ -45,7 +45,7 @@ move this later to the movement component is easy. You can find the implementati
 
 void AAxiosysDemoCharacter::DoParkourStart()
 
-I moved on to create the CustomMovementComponent, as I understad that this was the main thing about the assignment. 
+I moved on to create the CustomMovementComponent, as I understood that this was the main thing about the assignment. 
 The class is named UAxiosysMovementComponent. The main challenge was to get this subclass of the CharacterMovementComponent
 as the default movementComponent for the Character. 
 
@@ -81,7 +81,7 @@ then work from there.
 
 ## Ramblings:
 
-I did not bother implementing crouch as you have Crouch and Uncrouch already defined in the basich CharacterMovementComponent.
+I did not bother implementing crouch as you have Crouch and Uncrouch already defined in the basic CharacterMovementComponent.
 
 Also I did not bother working on the sprinting / stamina drain stuff as this is basically just setting and resetting 
 the walking speed. The stamina draining stuff imho does not belong to the character movement component, as it is not 
