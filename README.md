@@ -49,6 +49,10 @@ I moved on to create the CustomMovementComponent, as I understad that this was t
 The class is named UAxiosysMovementComponent. The main challenge was to get this subclass of the CharacterMovementComponent
 as the default movementComponent for the Character. 
 
+The subclass needs to be "injected" the following way:
+
+
+
 
 
 
