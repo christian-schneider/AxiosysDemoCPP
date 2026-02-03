@@ -24,6 +24,8 @@ to have everything ready for moving to C++. Find the UE 5 project for engine ver
 
 https://github.com/christian-schneider/AxiosysParkourBP
 
+![alt text](https://github.com/christian-schneider/AxiosysDemoCPP/blob/main/Pics/Axiosys-Climbing-BP.png?raw=true)
+
 Input mappings: 
 
 v - vaulting and climbing
@@ -31,6 +33,28 @@ v - vaulting and climbing
 c - crouching
 
 left shift - sprinting
+
+## CPP
+
+Next I ported the vaulting and climbing code to a new C++ base project AxiosysDemoCPP
+
+https://github.com/christian-schneider/AxiosysDemoCPP
+
+For a start I worked directly in the Character class to implement vaulting and climbing, to get it working, as to
+move this later to the movement component is easy. You can find the implementation in
+
+void AAxiosysDemoCharacter::DoParkourStart()
+
+I moved on to create the CustomMovementComponent, as I understad that this was the main thing about the assignment. 
+The class is named UAxiosysMovementComponent. The main challenge was to get this subclass of the CharacterMovementComponent
+as the default movementComponent for the Character. 
+
+
+
+
+
+
+
 
 
 

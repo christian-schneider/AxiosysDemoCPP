@@ -19,6 +19,4 @@ public:
 	UPROPERTY(Category="Character Movement: Parkour", EditDefaultsOnly, BlueprintReadWrite)
 	bool bCanParkour;
 	
-	//UFUNCTION(Category="Character Movement", BlueprintCallable)
-	//void StartParkour();
 };
